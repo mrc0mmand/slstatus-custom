@@ -64,7 +64,7 @@ static const struct arg args[] = {
     /* function format              argument */
     { keymap, "%s | ",             NULL },
     { ram_used, "RAM: %s/",        NULL },
-    { ram_free, "%s | ",           NULL },
+    { ram_total, "%s | ",           NULL },
     { battery_perc,  "B0: %s%% ",  "BAT0" },
     { battery_state, "(%s) ",      "BAT0" },
     { battery_remaining, "%s | ",  "BAT0" },

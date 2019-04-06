@@ -64,12 +64,12 @@ static const struct arg args[] = {
     /* function format              argument */
     { keymap, "%s | ",             NULL },
     { ram_used, "RAM: %s/",        NULL },
-    { ram_total, "%s | ",           NULL },
-    { battery_perc,  "B0: %s%% ",  "BAT0" },
-    { battery_state, "(%s) ",      "BAT0" },
+    { ram_total, "%s | ",          NULL },
+    { battery_state, "B0: %s",     "BAT0" },
+    { battery_perc,  "%s%% ",      "BAT0" },
     { battery_remaining, "%s | ",  "BAT0" },
-    { battery_perc, "B1: %s%% ",   "BAT1" },
-    { battery_state, "(%s) ",      "BAT1" },
+    { battery_state, "B1: %s",     "BAT1" },
+    { battery_perc, "%s%% ",       "BAT1" },
     { battery_remaining, "%s | ",  "BAT1" },
     { datetime, "%s",              "%F %T" },
 };
